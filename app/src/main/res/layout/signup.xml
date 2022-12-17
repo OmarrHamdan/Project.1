@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/my">
+    android:background="@color/my"
+    tools:context=".SignUp">
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="117dp"
-        android:layout_height="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="SIGN UP"
         android:textColor="@color/white"
         android:textSize="25sp"
@@ -22,8 +23,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
-        android:layout_width="135dp"
-        android:layout_height="51dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
         android:ems="10"
         android:hint="Last Name"
         android:inputType="textPersonName"
@@ -32,7 +33,7 @@
         android:textColorHint="@color/my2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintHorizontal_bias="0.933"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.089" />
@@ -56,8 +57,8 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="135dp"
-        android:layout_height="51dp"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
         android:ems="10"
         android:hint="First Name"
         android:inputType="textPersonName"
@@ -122,8 +123,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="152dp"
-        android:layout_height="49dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Finish"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

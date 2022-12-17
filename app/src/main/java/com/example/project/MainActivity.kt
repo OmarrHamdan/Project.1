@@ -23,18 +23,18 @@ class MainActivity : AppCompatActivity() {
             dialog_var.show(supportFragmentManager, "Sign Up")
         }
 
-          login.setOnClickListener(){
-
-              if(user.text.toString()==) {
-                  var dialog_var = SignUp()
-                  dialog_var.show(supportFragmentManager, "Sign Up")
-              }
-              else{
-                  Toast.makeText(this, "Username or Password is incorrect", Toast.LENGTH_SHORT).show()
-
-              }
-
-            }
+//          login.setOnClickListener(){
+//
+//              if(user.text.toString()==) {
+//                  var dialog_var = SignUp()
+//                  dialog_var.show(supportFragmentManager, "Sign Up")
+//              }
+//              else{
+//                  Toast.makeText(this, "Username or Password is incorrect", Toast.LENGTH_SHORT).show()
+//
+//              }
+//
+//            }
 
         }
     }
